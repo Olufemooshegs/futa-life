@@ -1,0 +1,8 @@
+[
+  { "id": "hostel", "name": "Hostel", "category": "accommodation", "description": "Your room.", "icon": "🏠", "x": 20, "y": 80 },
+  { "id": "lecture_hall", "name": "Lecture Hall", "category": "campus_academic", "description": "Where classes happen.", "icon": "🎓", "x": 50, "y": 20 },
+  { "id": "library", "name": "Library", "category": "campus_academic", "description": "Quiet study spot.", "icon": "📚", "x": 80, "y": 30 },
+  { "id": "department", "name": "Department", "category": "campus_academic", "description": "See lecturers.", "icon": "🏛️", "x": 30, "y": 40 },
+  { "id": "sems_car_park", "name": "SEMS Car Park", "category": "campus_outdoor", "description": "Parties and hangouts.", "icon": "🎉", "x": 70, "y": 70 },
+  { "id": "southgate_shuttle_park", "name": "Southgate", "category": "campus_outdoor", "description": "Bikes and buses.", "icon": "🚌", "x": 15, "y": 20 }
+]

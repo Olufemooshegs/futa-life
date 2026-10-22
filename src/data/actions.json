@@ -1,0 +1,14 @@
+[
+  { "id": "sleep", "locationId": "hostel", "label": "Sleep", "description": "Rest and recover energy.", "timeCost": "long", "effects": { "energy": 40, "hunger": 15, "stress": -10 } },
+  { "id": "eat_at_home", "locationId": "hostel", "label": "Eat at home", "description": "Cook a quick meal.", "timeCost": "short", "effects": { "hunger": -40, "energy": 10, "money": -500 }, "requires": { "minMoney": 500 } },
+  { "id": "study_at_home", "locationId": "hostel", "label": "Study", "description": "Revise your notes.", "timeCost": "normal", "effects": { "energy": -15, "stress": 10, "hunger": 5 }, "setsFlag": "studied_this_week" },
+  { "id": "attend_lecture", "locationId": "lecture_hall", "label": "Attend Lecture", "description": "Sit in class and take notes.", "timeCost": "normal", "effects": { "energy": -10, "stress": 5, "hunger": 5 }, "setsFlag": "attended_lecture" },
+  { "id": "study_library", "locationId": "library", "label": "Deep Study Session", "description": "Focus in the library.", "timeCost": "long", "effects": { "energy": -25, "stress": 5, "hunger": 10 }, "setsFlag": "studied_this_week" },
+  { "id": "visit_department", "locationId": "department", "label": "See Lecturer", "description": "Check in with your lecturer.", "timeCost": "normal", "effects": { "energy": -8, "stress": 3, "reputation": 2 } },
+  { "id": "submit_assignment", "locationId": "department", "label": "Submit Assignment", "description": "Drop off your assignment.", "timeCost": "short", "effects": { "energy": -5, "stress": -3, "reputation": 1 } },
+  { "id": "party", "locationId": "sems_car_park", "label": "Attend Party", "description": "Let loose at a SEMS party.", "timeCost": "long", "effects": { "energy": -30, "social": 25, "reputation": 5, "money": -1500, "stress": -15 }, "requires": { "minMoney": 1500 } },
+  { "id": "hangout", "locationId": "sems_car_park", "label": "Hangout", "description": "Chill with friends.", "timeCost": "normal", "effects": { "social": 12, "energy": -8, "money": -500 }, "requires": { "minMoney": 500 } },
+  { "id": "take_shuttle", "locationId": "southgate_shuttle_park", "label": "Take Shuttle", "description": "Catch a bus to campus.", "timeCost": "short", "effects": { "energy": -3, "money": -100 } },
+  { "id": "take_bike", "locationId": "southgate_shuttle_park", "label": "Take Bike", "description": "Faster, pricier.", "timeCost": "short", "effects": { "energy": -2, "money": -200 } },
+  { "id": "trek", "locationId": "southgate_shuttle_park", "label": "Trek", "description": "Free but tiring.", "timeCost": "normal", "effects": { "energy": -20, "hunger": 10 } }
+]

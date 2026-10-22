@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mee", "name": "Mechanical Engineering", "code": "MEE",
+    "courseIdsBySemester": [
+      ["MTH101", "PHY101", "MEE101", "GST101"],
+      ["MTH102", "PHY102", "MEE102", "GST102"],
+      ["MEE201", "MTH201", "GST201"],
+      ["MEE202", "MEE203", "AGR299"],
+      ["MEE301", "MEE302", "ENT301"],
+      ["MEE303", "MEE304", "GST302"],
+      ["MEE401", "MEE402"],
+      ["SIWES400"],
+      ["MEE501", "MEE502"],
+      ["MEE503", "MEE504"]
+    ]
+  },
+  {
+    "id": "csc", "name": "Computer Science", "code": "CSC",
+    "courseIdsBySemester": [
+      ["MTH101", "PHY101", "CSC101", "GST101"],
+      ["MTH102", "PHY102", "CSC102", "GST102"],
+      ["CSC201", "MTH201", "GST201"],
+      ["CSC202", "CSC203", "AGR299"],
+      ["CSC301", "CSC302", "ENT301"],
+      ["CSC303", "CSC304", "GST302"],
+      ["CSC401", "CSC402"],
+      ["SIWES400"],
+      ["CSC501", "CSC502"],
+      ["CSC503", "CSC504"]
+    ]
+  },
+  {
+    "id": "saat", "name": "Agriculture & Agricultural Technology", "code": "SAAT",
+    "courseIdsBySemester": [
+      ["MTH101", "PHY101", "AGR101", "GST101"],
+      ["MTH102", "PHY102", "AGR102", "GST102"],
+      ["AGR201", "MTH201", "GST201"],
+      ["AGR202", "AGR203", "AGR299"],
+      ["AGR301", "AGR302", "ENT301"],
+      ["AGR303", "AGR304", "GST302"],
+      ["AGR401", "AGR402"],
+      ["SIWES400"],
+      ["AGR501", "AGR502"],
+      ["AGR503", "AGR504"]
+    ]
+  }
+]

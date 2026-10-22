@@ -1,0 +1,13 @@
+{
+  "startingMoney": 15000,
+  "allowanceAmount": 10000,
+  "allowanceIntervalWeeks": 2,
+  "onCampusCost": 20000,
+  "offCampusCost": 35000,
+  "lowFundsThreshold": 2000,
+  "maxSemesterUnits": 24,
+  "minAttendancePercent": 75,
+  "slotsPerWeek": 18,
+  "weeksPerSemester": 2,
+  "startingStats": { "energy": 100, "hunger": 20, "social": 50, "stress": 10, "reputation": 50 }
+}

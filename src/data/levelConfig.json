@@ -1,0 +1,12 @@
+[
+  { "index": 0, "level": 100, "semesterNumber": 1, "label": "100 Level — First Semester", "weeks": 2, "requiredMilestones": ["mee_board_carried", "matriculation_attended"], "eventIds": ["matriculation_ceremony", "mee_board_duty"] },
+  { "index": 1, "level": 100, "semesterNumber": 2, "label": "100 Level — Second Semester", "weeks": 2, "requiredMilestones": [], "eventIds": [] },
+  { "index": 2, "level": 200, "semesterNumber": 1, "label": "200 Level — First Semester", "weeks": 2, "requiredMilestones": [], "eventIds": [] },
+  { "index": 3, "level": 200, "semesterNumber": 2, "label": "200 Level — Second Semester", "weeks": 2, "requiredMilestones": [], "eventIds": [] },
+  { "index": 4, "level": 300, "semesterNumber": 1, "label": "300 Level — First Semester", "weeks": 2, "requiredMilestones": [], "eventIds": [] },
+  { "index": 5, "level": 300, "semesterNumber": 2, "label": "300 Level — Second Semester", "weeks": 2, "requiredMilestones": [], "eventIds": [] },
+  { "index": 6, "level": 400, "semesterNumber": 1, "label": "400 Level — First Semester", "weeks": 2, "requiredMilestones": [], "eventIds": [] },
+  { "index": 7, "level": 400, "semesterNumber": 2, "label": "400 Level — SIWES", "weeks": 2, "requiredMilestones": ["siwes_complete"], "eventIds": [] },
+  { "index": 8, "level": 500, "semesterNumber": 1, "label": "500 Level — First Semester", "weeks": 2, "requiredMilestones": [], "eventIds": [] },
+  { "index": 9, "level": 500, "semesterNumber": 2, "label": "500 Level — Final Semester", "weeks": 2, "requiredMilestones": ["project_defense"], "eventIds": [] }
+]

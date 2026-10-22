@@ -1,0 +1,67 @@
+[
+  {
+    "id": "matriculation_ceremony",
+    "title": "Matriculation Ceremony",
+    "description": "You arrive at the venue in your best outfit. The VC is speaking. You're officially a FUTA student. Do you stay for the full ceremony or slip out early?",
+    "category": "futa_milestone",
+    "locationId": "lecture_hall",
+    "semesterIndices": [0],
+    "isMilestone": true,
+    "choices": [
+      { "text": "Stay the whole ceremony", "effects": [{ "type": "milestone_complete", "milestone": "matriculation_attended" }, { "type": "stat_change", "stat": "reputation", "amount": 5 }] },
+      { "text": "Slip out early", "effects": [{ "type": "milestone_complete", "milestone": "matriculation_attended" }, { "type": "stat_change", "stat": "energy", "amount": 10 }, { "type": "stat_change", "stat": "reputation", "amount": -3 }] }
+    ]
+  },
+  {
+    "id": "mee_board_duty",
+    "title": "MEE Board Duty",
+    "description": "Your MEE 101 lecturer calls for volunteers to carry the drawing board. Everyone is looking at you.",
+    "category": "futa_milestone",
+    "locationId": "department",
+    "semesterIndices": [0],
+    "isMilestone": true,
+    "choices": [
+      { "text": "Carry the board like a soldier", "effects": [{ "type": "stat_change", "stat": "energy", "amount": -20 }, { "type": "stat_change", "stat": "reputation", "amount": 10 }, { "type": "milestone_complete", "milestone": "mee_board_carried" }] },
+      { "text": "Find a junior to carry it", "effects": [{ "type": "stat_change", "stat": "reputation", "amount": -5 }, { "type": "money_change", "amount": -500 }, { "type": "milestone_complete", "milestone": "mee_board_carried" }] },
+      { "text": "Pretend you didn't hear", "effects": [{ "type": "stat_change", "stat": "reputation", "amount": -10 }, { "type": "stat_change", "stat": "stress", "amount": 5 }, { "type": "milestone_complete", "milestone": "mee_board_carried" }] }
+    ]
+  },
+  {
+    "id": "unexpected_test",
+    "title": "Unexpected Test",
+    "description": "Dr. Adeyemi walks in and announces a surprise test. The class groans. You haven't studied.",
+    "category": "academic",
+    "locationId": "lecture_hall",
+    "isMilestone": false,
+    "choices": [
+      { "text": "Sit and try your best", "effects": [{ "type": "stat_change", "stat": "energy", "amount": -15 }, { "type": "stat_change", "stat": "stress", "amount": 20 }, { "type": "stat_change", "stat": "reputation", "amount": 2 }] },
+      { "text": "Fake illness and leave", "effects": [{ "type": "stat_change", "stat": "reputation", "amount": -8 }, { "type": "stat_change", "stat": "stress", "amount": -5 }] }
+    ]
+  },
+  {
+    "id": "transport_wahala",
+    "title": "Transport Wahala",
+    "description": "The shuttle is packed and the bike man is asking for double. Rain is starting.",
+    "category": "transport",
+    "locationId": "southgate_shuttle_park",
+    "isMilestone": false,
+    "choices": [
+      { "text": "Pay double for bike", "effects": [{ "type": "money_change", "amount": -500 }, { "type": "stat_change", "stat": "energy", "amount": -2 }] },
+      { "text": "Squeeze into shuttle", "effects": [{ "type": "money_change", "amount": -100 }, { "type": "stat_change", "stat": "stress", "amount": 8 }, { "type": "stat_change", "stat": "energy", "amount": -5 }] },
+      { "text": "Trek in the rain", "effects": [{ "type": "stat_change", "stat": "energy", "amount": -25 }, { "type": "stat_change", "stat": "stress", "amount": 5 }, { "type": "stat_change", "stat": "hunger", "amount": 15 }] }
+    ]
+  },
+  {
+    "id": "data_finished",
+    "title": "Data Finished",
+    "description": "You're mid-scroll and your data dies. Again. MTN is not smiling.",
+    "category": "financial",
+    "locationId": "hostel",
+    "isMilestone": false,
+    "choices": [
+      { "text": "Buy 1GB for ₦500", "effects": [{ "type": "money_change", "amount": -500 }, { "type": "stat_change", "stat": "stress", "amount": -5 }] },
+      { "text": "Borrow from roommate", "effects": [{ "type": "stat_change", "stat": "social", "amount": -5 }, { "type": "stat_change", "stat": "reputation", "amount": -2 }] },
+      { "text": "Live offline", "effects": [{ "type": "stat_change", "stat": "social", "amount": -10 }, { "type": "stat_change", "stat": "stress", "amount": 10 }] }
+    ]
+  }
+]
